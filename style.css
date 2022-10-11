@@ -1,0 +1,68 @@
+.name{
+    color: skyblue;
+}
+.lasto{
+         display: flex;
+         background-color: rgb(190, 188, 188);
+         color: rgb(46, 95, 51);
+         align-items: center;
+         justify-content: center;
+        padding:40px;
+      }
+.lastfi{
+  margin-left: 10%;
+}
+.lastpakk{
+  display:flex;
+  background-color:black;
+  color: white;
+  flex-direction: row;
+}
+@media only screen and (max-width: 800px) {
+  .lastpakk {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0%;
+  }
+}
+.lastsor{
+  display:flex;
+  flex-direction: row;
+  color: #403f3f;
+}
+.lastdiv{
+  width: 25%;
+  height: 90%;
+  margin-left: 10%;
+}
+.lastw{
+  margin-left: 20%;
+  margin-top: 15%;
+}
+@media only screen and (max-width: 800px) {
+  .lastsor {
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .lastdiv{
+  width: 80%;
+  height: 90%;
+  text-align: center;
+}
+  .lastw{
+    margin-left: 0%;
+    margin-top: 3%;
+  }
+}
+
+/* .btnla{
+  background-color: skyblue;
+  color: black;
+  width: 8%;
+  height:10%;
+  border-radius: 10%;
+} */
+.nav > div > ul > li > a:hover{
+    color:red;
+}
